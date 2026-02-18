@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pant</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/57dbbee216.js" crossorigin="anonymous"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <script src="/js/script.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <style>
+        html {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- nav-bar-start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white my-nav">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex me-lg-4 mx-md-auto mx-sm-auto mx-auto">
+            <div class="store-name">
+                <a class="navbar-brand  ml-lg-4 " href="#">Love Threaded</a>
+            </div>
+            <div class="d-flex align-items-center ms-auto">
+                <span class=" d-sm-block d-lg-none d-md-block">
+                    <a class="nav-link text-dark" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                    </a>
+                </span>
+                <span class="d-none d-lg-none d-md-block">
+                    <a class="nav-link text-dark  " href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            fill="currentColor">
+                            <path
+                                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                        </svg>
+                    </a>
+                </span>
+                <span class=" d-sm-block d-lg-none d-md-block">
+                    <a class="nav-link text-dark" href="#">
+                        <svg class="shopping-basket" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24" fill="currentColor">
+                            <path
+                                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" />
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+            aria-labelledby="navbarOffcanvasLgLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 gap-3 nav-underline items-center ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tops-kurthi.html">Tops & kurthi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pant.html">Pants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bounce" href="/night-dress.html">Night Dress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/popcorn-top.html">Popcorn Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item d-lg-none d-block">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+                <ul class="nav px-4">
+                    <!-- <li class="nav-item d-lg-block d-none">
+                            <a class="nav-link text-dark" aria-current="page" href="#"><i
+                                    class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+                        </li> -->
+                    <li class="nav-item d-lg-block d-none ">
+                        <a class="nav-link text-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                </path>
+                            </svg></a>
+                    </li>
+                    <li class="nav-item d-lg-block d-none">
+                        <a class="nav-link text-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                <path
+                                    d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                            </svg></a>
+                    </li>
+                    <li class="nav-item d-lg-block d-none">
+                        <a class="nav-link text-dark" href="#"><svg class="shopping-basket"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                fill="currentColor">
+                                <path
+                                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" />
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <!-- nav-bar-end -->
+
+    <div class="container-fluid">
+        <div class="dress-text text-center">
+            <h2 class="category-head">Pant</h2>
+            <p class="fst-italic">“Simple, comfortable Pants”</p>
+        </div>
+
+        <div class="row btns justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto gy-2">
+                <a href="/all-collection.html" class="text-dark d-block"><button type="button" class="btn active w-100"
+                        style="background-color: var(--pink-); color: var(--white-); border: 0;">All
+                        Collections</button></a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto gy-2">
+                <a href="/tops-kurthi.html" class="text-dark d-block"><button type="button" class="btn w-100">Tops &
+                        Kurthi</button></a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto gy-2">
+                <a href="/pant.html" class="text-dark d-block"><button type="button"
+                        class="btn w-100">Pants</button></a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-auto gy-2">
+                <a href="/night-dress.html" class="text-dark d-block"><button type="button" class="btn w-100">Night
+                        Dress</button></a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-auto gy-2">
+                <a href="/popcorn-top.html" class="text-dark d-block"><button type="button" class="btn w-100">Popcorn
+                        Tops</button></a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="card-container container-fluid gy-4">
+            <div class="row">
+                <!-- pants -->
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/1.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/2.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/3.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/4.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/5.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/6.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/7.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/9.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/8.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/10.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5col col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-4 gy-4">
+                    <div class=" card">
+                        <div class="tilt img-hover-zoom-trending">
+                            <div class="img">
+                                <img src="/img/pant-img/11.webp" class="img-fluid" alt="dress">
+                            </div>
+
+                            <div class="card-img-overlay">
+                                <div class="d-flex justify-content-between">
+
+                                    <div>
+                                        <p class="card-text new p-1 d-flex justify-content-center">NEW</p>
+                                        <p class="card-text sale p-1">SALE</p>
+                                    </div>
+
+                                    <div class="like-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-heart h-4 w-4 transition-colors text-foreground">
+                                            <path
+                                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="card-body z-1 p-2">
+                                <p class="card-text dress">Rose Garden Midi Dress</p>
+                                <p>₹4,000</p>
+                                <button class="buy-btn" role="button">
+                                    BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+
+    <!-- family-start -->
+
+    <div class="container-fluid family-container">
+        <div class="family-head text-center py-5 px-3">
+            <div class="mb-4">
+                <h2 class="family-word-1 mb-3">Join the Love Threaded Family</h2>
+                <p class="family-word-2 mb-4">Subscribe for exclusive offers, new arrivals, and style inspiration.</p>
+            </div>
+            <!-- <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+                    <div class="d-flex flex-column flex-sm-row gap-2">
+                        <input type="email" class="form-control flex-grow-1" placeholder="Enter Your Email">
+                        <button type="button" class="btn btn-dark text-uppercase px-4 py-2">Subscribe</button>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-12 px-3">
+                    <div class="d-flex flex-column flex-sm-row gap-2 gap-md-3 d-wrap">
+                        <input type="email" class="form-control flex-grow-1 rounded-1" placeholder="Enter Your Email">
+                        <button type="button"
+                            class="btn btn-dark text-uppercase px-4 py-2 text-nowrap">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- family-end -->
+
+    <!-- footer-start -->
+
+    <div class="footer-5-column">
+        <div class="footer-container">
+            <!-- Footer Navigation Start -->
+            <div class="footer-navbar-container">
+                <div class="footer-company-details ms-lg-5 ms-md-3">
+                    <!-- <div class="footer-details-inner"> -->
+                    <div class="d-flex justify-content-start align-items-end gap-3">
+                        <div class="footer-logo d-flex">
+                            <img src="/img/logo.jpeg" class="" alt="">
+                        </div>
+                        <div>
+                            <h2 class="footer-name">Love Threaded</h2>
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <p>
+                            Where every thread tells a story. Crafted with love for the modern woman.
+                        </p>
+                    </div>
+                    <div class="footer-icons">
+                        <ul>
+                            <!-- <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                    </svg>
+                                </a>
+                            </li> -->
+
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/accounts/login/?next=%2Flovethreadedofficial&source=omni_redirect">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="23" height="23"
+                                        fill="#000">
+                                        <!-- Instagram icon -->
+                                        <path
+                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                    </svg>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com/lovethreadedofficial">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="23" height="23"
+                                        fill="#000">
+                                        <!-- Facebook icon -->
+                                        <path
+                                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://wa.me/+919566182208">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24"
+                                        fill="#000">
+                                        <path
+                                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="footer-navbar">
+                    <div class="footer-navbar-col">
+                        <h5 class="footer-head">Shop</h5>
+                        <ul>
+                            <li><a href="/tops-kurthi.html"> Tops & Kurthi </a></li>
+                            <li><a href="/pant.html"> Pants </a></li>
+                            <li><a href="/night-dress.html"> Night Dress </a></li>
+                            <li><a href="/popcorn-top.html"> PopCorn Tops </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-navbar-col">
+                        <h5 class="footer-head">Company</h5>
+                        <ul>
+                            <li><a href="/about-us.html"> About Us </a></li>
+                            <li><a href="/all-collection.html"> Collections </a></li>
+                            <li><a href="#"> Offers </a></li>
+                            <li><a href="/contact-us.html"> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-navbar-col">
+                        <h5 class="footer-head">Support</h5>
+                        <ul>
+                            <li><a href="#"> Shipping Policy </a></li>
+                            <li><a href="#"> Returns & Exchanges </a></li>
+                            <li><a href="#"> Size Guide </a></li>
+                            <li><a href="#"> FAQs </a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer-navbar-col">
+                        <h5>Legal</h5>
+                        <ul>
+                            <li><a href="#"> Commerce </a></li>
+                            <li><a href="#"> Analyst </a></li>
+                            <li><a href="#"> Insight </a></li>
+                            <li><a href="#"> Marketing </a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            <div class="d-flex justify-content-end align-items-center me-4">
+                <p>Privacy Policy & Terms of Service</p>
+            </div>
+            <hr>
+            <!-- Footer Navigation End -->
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="footer-copyright mb-3">
+                    <p>© 2026 Digianalytix- All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-end -->
+</body>
+
+</html>
